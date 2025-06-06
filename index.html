@@ -666,29 +666,28 @@
             <textarea
               class="modal-textarea modal-item"
               name="user-comment"
-              id="user-text"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
+
           <div class="check-accept">
             <input
               type="checkbox"
               class="visually-hidden check-input"
               name="user-privacy"
               id="user-privacy"
+              value="true"
             />
-            <label for="user-privacy" class="check-option">
+            <label for="user-privacy" class="check-option check-text">
               <span class="check-custom">
                 <svg class="checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-enable"></use>
                 </svg>
               </span>
-            </label>
-
-            <p class="check-text">
-              I accept the terms and conditions of the
+              I accept the terms and conditions of the&nbsp;
               <a href="" class="check-link">Privacy Policy</a>
-            </p>
+            </label>
           </div>
           <button type="submit" class="btn">SEND</button>
         </form>
