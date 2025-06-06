@@ -762,6 +762,7 @@ h5 {
   border: 1px solid #4d5ae5;
 }
 .check-text {
+  position: relative;
   font-weight: 400;
   font-size: 12px;
   display: inline-flex;
@@ -779,13 +780,12 @@ h5 {
   color: #4d5ae5;
 }
 .check-accept {
-  position: relative;
   margin-bottom: 24px;
 }
 
 .checkbox-icon {
   fill: transparent;
-  display: flex;
+
   align-items: center;
   justify-content: center;
 }
@@ -808,6 +808,7 @@ h5 {
 .check-input:checked + .check-option .check-custom {
   border: none;
   background-color: #404bbf;
+  fill: #f4f4fd;
 }
 .check-input:checked + .check-option .checkbox-icon {
   fill: #f4f4fd;
