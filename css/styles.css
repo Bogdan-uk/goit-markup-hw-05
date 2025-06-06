@@ -780,7 +780,6 @@ h5 {
   color: #4d5ae5;
 }
 .check-accept {
-  display: flex;
   margin-bottom: 24px;
 }
 
@@ -791,11 +790,12 @@ h5 {
   justify-content: center;
 }
 .check-custom {
+  display: inline-flex;
   position: absolute;
   left: 2px;
   width: 16px;
   height: 16px;
-  display: inline-flex;
+
   align-items: center;
   justify-content: center;
   border-radius: 2px;
