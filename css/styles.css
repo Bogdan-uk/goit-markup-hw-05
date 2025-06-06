@@ -765,7 +765,7 @@ h5 {
   position: relative;
   font-weight: 400;
   font-size: 12px;
-  display: inline-flex;
+
   align-items: center;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -780,6 +780,7 @@ h5 {
   color: #4d5ae5;
 }
 .check-accept {
+  display: flex;
   margin-bottom: 24px;
 }
 
