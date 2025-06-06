@@ -785,7 +785,7 @@ h5 {
 
 .checkbox-icon {
   fill: transparent;
-
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
