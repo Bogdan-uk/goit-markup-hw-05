@@ -762,7 +762,6 @@ h5 {
   border: 1px solid #4d5ae5;
 }
 .check-text {
-  position: relative;
   font-weight: 400;
   font-size: 12px;
 
@@ -770,7 +769,6 @@ h5 {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  padding-left: 26px;
 }
 
 .check-link {
@@ -785,17 +783,16 @@ h5 {
 
 .checkbox-icon {
   fill: transparent;
-  display: inline-flex;
+
   align-items: center;
   justify-content: center;
 }
 .check-custom {
   display: inline-flex;
-  position: absolute;
-  left: 2px;
+  margin-right: 8px;
+
   width: 16px;
   height: 16px;
-
   align-items: center;
   justify-content: center;
   border-radius: 2px;
